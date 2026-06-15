@@ -1,3 +1,7 @@
+/* ==========================
+   CONFIGURACIÓN GENERAL
+========================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,11 +14,19 @@ body {
   color: white;
 }
 
+/* ==========================
+   CONTENEDOR PRINCIPAL
+========================== */
+
 .container {
   max-width: 1200px;
   margin: auto;
   padding: 30px;
 }
+
+/* ==========================
+   TÍTULOS
+========================== */
 
 h1 {
   text-align: center;
@@ -27,6 +39,10 @@ h2 {
   margin-bottom: 30px;
   color: #cbd5e1;
 }
+
+/* ==========================
+   FORMULARIO DE PRODUCTOS
+========================== */
 
 .formulario {
   background: #1e293b;
@@ -72,11 +88,15 @@ h2 {
   background: #0ea5e9;
 }
 
+/* Vista previa de la imagen seleccionada */
+
 .preview {
   width: 200px;
   border-radius: 10px;
   margin: auto;
 }
+
+/* Mensajes de error */
 
 .error {
   color: #ef4444;
@@ -84,11 +104,19 @@ h2 {
   font-weight: bold;
 }
 
+/* ==========================
+   TARJETAS DE PRODUCTOS
+========================== */
+
+/* Contenedor de las tarjetas */
+
 .productos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 25px;
 }
+
+/* Tarjeta individual */
 
 .card {
   background: #1e293b;
@@ -142,6 +170,10 @@ h2 {
   background: #dc2626;
 }
 
+/* ==========================
+   DISEÑO RESPONSIVE
+========================== */
+
 @media (max-width: 768px) {
   .container {
     padding: 15px;
@@ -151,6 +183,10 @@ h2 {
     padding: 20px;
   }
 }
+
+/* ==========================
+   ENCABEZADO DE LA TIENDA
+========================== */
 
 .hero {
   text-align: center;
@@ -186,7 +222,9 @@ h2 {
   padding: 30px;
 }
 
-/* ===== CATEGORÍAS PRINCIPALES ===== */
+/* ==========================
+   CATEGORÍAS PRINCIPALES
+========================== */
 
 .categorias-grid {
   display: flex;
@@ -221,7 +259,9 @@ h2 {
   color: #38bdf8;
 }
 
-/* ===== SUBCATEGORÍAS ===== */
+/* ==========================
+   SUBCATEGORÍAS
+========================== */
 
 .subcategorias {
   display: flex;
@@ -248,7 +288,9 @@ h2 {
   color: #0f172a;
 }
 
-/* ===== CONTADOR ===== */
+/* ==========================
+   CONTADOR DE PRODUCTOS
+========================== */
 
 .contador-productos {
   text-align: center;
@@ -258,7 +300,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* ===== ETIQUETA DE CATEGORÍA ===== */
+/* Etiqueta de categoría mostrada en la tarjeta */
 
 .categoria-badge {
   display: inline-block;
@@ -271,7 +313,9 @@ h2 {
   font-weight: bold;
 }
 
-/* ===== BADGES DEL HERO ===== */
+/* ==========================
+   ELEMENTOS DEL HERO
+========================== */
 
 .hero-badges {
   margin-top: 20px;
